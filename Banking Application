@@ -1,0 +1,48 @@
+#include <stdio.h>
+#include<stdlib.h>
+float amount;
+void deposit();
+void withdraw();
+void display();
+int main() {
+    int choice;
+    printf("Enter initial amount...");
+    scanf("%f",&amount);
+    while(1){
+        printf("Banking application Menu...\n");
+        printf("1.Deposit\n2.Withdraw\n3.Display\n4.Exit\n");
+        printf("Enter value...(1 - 4)\n");
+        scanf("%d",&choice);
+        switch(choice){
+            case 1: deposit();
+            break;
+            case 2: withdraw();
+            break;
+            case 3: display();
+            break;
+            case 4: exit(0);
+            default: printf("Enter value between 1 and 4");
+        }
+    }
+    return 0;
+}
+void deposit(){
+    float deposit_amount;
+    printf("Enter amount to deposit...");
+    scanf("%f",&deposit_amount);
+    amount += deposit_amount;
+    printf("Amount deposited successfully\n");
+}
+void withdraw(){
+    float withdraw_amount;
+    printf("Enter amount to withdraw...");
+    scanf("%f",&withdraw_amount);
+    if(withdraw_amount <= amount){
+        amount -= withdraw_amount;
+        printf("Withdrawal successful\n");
+    }
+    else printf("Insufficient Balance\n");
+}
+void display(){
+    printf("The amount in the account is: %.2f\n",amount);
+}
