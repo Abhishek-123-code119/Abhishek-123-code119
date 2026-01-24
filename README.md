@@ -27,12 +27,14 @@ I enjoy solving problems, building small projects, and continuously improving my
 
 ### 🔹 C Projects
 - **Number Utilities** – Programs for prime check, palindrome, factorial, etc.
+- **Student Record System** – Console-based CRUD application.
 ### 🔹 Java Projects
 - **Bank Management System** – OOP-based console application.
 - **Quiz App** – Simple Java quiz using arrays & classes.
 
 ### 🔹 Python Projects
 - **Basic Calculator**
+- **To-Do List (Console App)**
 
 ### 🔹 Web Projects (HTML + CSS)
 - **Landing Page**
