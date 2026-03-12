@@ -29,7 +29,7 @@ I enjoy solving problems, building small projects, and continuously improving my
 - **Number Utilities** – Programs for prime check, palindrome, factorial, etc.
 - **Student Record System** – Console-based CRUD application.
 ### 🔹 Java Projects
-- **Bank Management System** – OOP-based console application.
+- **Investment Banking Order Matching Engine** – OOP-based console application.
 - **Quiz App** – Simple Java quiz using arrays & classes.
 
 ### 🔹 Python Projects
